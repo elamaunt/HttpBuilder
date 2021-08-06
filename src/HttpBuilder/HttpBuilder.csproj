@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Authors>elamaunt</Authors>
+    <Company>elamaunt</Company>
+    <Copyright>elamaunt</Copyright>
+    <PackageProjectUrl>https://github.com/elamaunt/HttpBuilder</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/elamaunt/HttpBuilder</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageTags>Http request builder handler</PackageTags>
+    <Description>Use methods chain pattern to create a http request and its handlers.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+</Project>
