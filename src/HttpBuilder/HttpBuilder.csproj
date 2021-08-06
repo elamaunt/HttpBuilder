@@ -12,10 +12,18 @@
     <RepositoryType>Git</RepositoryType>
     <PackageTags>Http request builder handler</PackageTags>
     <Description>Use methods chain pattern to create a http request and its handlers.</Description>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
