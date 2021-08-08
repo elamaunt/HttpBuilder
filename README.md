@@ -31,7 +31,7 @@ class MyHttpService : HttpService
 }
 ```
 
-#### 2. Use service as start point.
+#### 2. Use the service as start point.
 
 ```csharp
 var service = new MyHttpService();
