@@ -9,7 +9,7 @@ Http helper to build and observe http requests.
 Install-Package HttpBuilder -Version 1.0.0
 ```
 
-#### 1. Create you service.
+#### 1. Create your service.
 
 ```csharp
 using HttpBuilder;
